@@ -1,44 +1,12 @@
 {
   "nodes": {
-    "gnulib-src": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1588070119,
-        "narHash": "sha256-gMIWbMSKisS5w6QxKFfN1IJHPHxZw9h5upzxpada+1c=",
-        "ref": "master",
-        "rev": "5ec4d920e4acb45225320c3df9ae32fdff928413",
-        "revCount": 20684,
-        "type": "git",
-        "url": "https://git.savannah.gnu.org/git/gnulib.git"
-      },
-      "original": {
-        "type": "git",
-        "url": "https://git.savannah.gnu.org/git/gnulib.git"
-      }
-    },
-    "hello-src": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1549746003,
-        "narHash": "sha256-7losVbaLgy9pjL6GoOrZAK6O6nCXm3pddo03UZDjxUc=",
-        "ref": "master",
-        "rev": "0cce403f478bd0a4a60d0b8566c67d3a72498008",
-        "revCount": 454,
-        "type": "git",
-        "url": "https://git.savannah.gnu.org/git/hello.git"
-      },
-      "original": {
-        "type": "git",
-        "url": "https://git.savannah.gnu.org/git/hello.git"
-      }
-    },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1603528673,
-        "narHash": "sha256-iFrxF9GMes1jH7v8qjep1BsQYEq/admkEv/gJoqQsHo=",
+        "lastModified": 1625876282,
+        "narHash": "sha256-z/Gv+11Uzdv3HcQCY+xGi1+iuc3rmCaPzxxDSMnuRAI=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "95d26c9a9f2a102e25cf318a648de44537f42e09",
+        "rev": "068984c00e0d4e54b6684d98f6ac47c92dcb642e",
         "type": "github"
       },
       "original": {
@@ -47,11 +15,114 @@
         "type": "indirect"
       }
     },
+    "python-application-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1582707144,
+        "narHash": "sha256-YDwM6jnpGEjLxcmP21YKJEUluzYwZMvSVfCJXu96ovU=",
+        "owner": "AGProjects",
+        "repo": "python3-application",
+        "rev": "330ccd0693b5b724e4ab964ad6b45d4fcae300a2",
+        "type": "github"
+      },
+      "original": {
+        "owner": "AGProjects",
+        "repo": "python3-application",
+        "rev": "330ccd0693b5b724e4ab964ad6b45d4fcae300a2",
+        "type": "github"
+      }
+    },
+    "python-gnutls-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1581683991,
+        "narHash": "sha256-X80nMsbSQy46HWFlKfYA9wPT95TQ3BZva6zscSpU8xg=",
+        "owner": "AGProjects",
+        "repo": "python-gnutls",
+        "rev": "aad5b755ea943ebe6e1f782fd1d17b584c4977bf",
+        "type": "github"
+      },
+      "original": {
+        "owner": "AGProjects",
+        "repo": "python-gnutls",
+        "type": "github"
+      }
+    },
+    "python-otr-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1609517159,
+        "narHash": "sha256-Sd0PRjHgHSxvYIhiSA1IzlnEOslKSdVUDl5CTxG0x2E=",
+        "owner": "python-otr",
+        "repo": "pure-python-otr",
+        "rev": "2c41835088591b65a6405acb3c5ed01989b8f760",
+        "type": "github"
+      },
+      "original": {
+        "owner": "python-otr",
+        "repo": "pure-python-otr",
+        "type": "github"
+      }
+    },
+    "python-sipsimple-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1623848773,
+        "narHash": "sha256-uTigERqqtEQ+MMwEN4fcWHWmNytHuPYloHMgtQraD44=",
+        "owner": "AGprojects",
+        "repo": "python-sipsimple",
+        "rev": "a644f25948de1f9b190844d04384159f20738c1e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "AGprojects",
+        "repo": "python-sipsimple",
+        "type": "github"
+      }
+    },
+    "python-sylkserver-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1602680808,
+        "narHash": "sha256-R/LoF6jNLdfoFw9tQd+6+IEi6LodBq3e7Sm1JN8M4ew=",
+        "owner": "AGProjects",
+        "repo": "sylkserver",
+        "rev": "8099169674b20ad00f24d25edb356fa139ea85d1",
+        "type": "github"
+      },
+      "original": {
+        "owner": "AGProjects",
+        "repo": "sylkserver",
+        "rev": "8099169674b20ad00f24d25edb356fa139ea85d1",
+        "type": "github"
+      }
+    },
     "root": {
       "inputs": {
-        "gnulib-src": "gnulib-src",
-        "hello-src": "hello-src",
-        "nixpkgs": "nixpkgs"
+        "nixpkgs": "nixpkgs",
+        "python-application-src": "python-application-src",
+        "python-gnutls-src": "python-gnutls-src",
+        "python-otr-src": "python-otr-src",
+        "python-sipsimple-src": "python-sipsimple-src",
+        "python-sylkserver-src": "python-sylkserver-src",
+        "txaio2-src": "txaio2-src"
+      }
+    },
+    "txaio2-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1535709883,
+        "narHash": "sha256-pYRtLMmwFLDMv1Q+VBuELSPX4lZk8YyQGr4EzOFgOe8=",
+        "owner": "crossbario",
+        "repo": "txaio",
+        "rev": "bc28b03efddd678dcea77071ce5ac074a209fefe",
+        "type": "github"
+      },
+      "original": {
+        "owner": "crossbario",
+        "repo": "txaio",
+        "rev": "bc28b03efddd678dcea77071ce5ac074a209fefe",
+        "type": "github"
       }
     }
   },
