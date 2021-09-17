@@ -1,5 +1,5 @@
 {
-  description = "Python OTR implementation; it does not bind to libotr";
+  description = "Sylk Server Python 2.7 ";
   inputs.nixpkgs.url = "nixpkgs/nixos-20.09";
   inputs.python-gnutls-src = {
     url = github:/AGProjects/python-gnutls;
